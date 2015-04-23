@@ -1,0 +1,11 @@
+#heroabout {
+	background-image: url("images/hero-images/about.jpg");
+	/*display: inliine*/
+	background-size: cover;
+	background-position: fixed;
+	height: 450px;
+	background-repeat: no-repeat;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: 50px;
+}
