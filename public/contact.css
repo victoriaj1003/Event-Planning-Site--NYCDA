@@ -1,0 +1,39 @@
+
+body{
+	margin: 0 auto;
+	background-image: url("http://www.socoolevents.com/_images/So%20Cool%20Events%20Event%20Furniture.jpg"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+
+}
+
+ul li{
+	display: inline;
+	margin-left: 3em;
+	list-style-type: none;
+
+}
+
+ul li a{
+	text-decoration: none;
+}
+
+nav{
+	margin: 0 auto;
+
+}
+
+#home-image h1{
+	z-index: 10;
+	position: absolute;
+	margin-top: 25%;
+	color: white;
+	margin-left: 30%;
+}
+
+#home-image {
+	
+}
+
