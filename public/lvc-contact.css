@@ -1,8 +1,9 @@
-#herocontact {
-	background-image: url("hero-images/contact.jpg");
+/*.wholething {
+	background-color: #F4FFFF;
+}
 
-	/*background-image: url("images/hero-images/about.jpg");*/
-	/*display: inliine*/
+#herocontact {
+	background-image: url("images/hero-images/contactbw.jpeg");
 	background-size: cover;
 	background-position: fixed;
 	height: 450px;
@@ -11,3 +12,54 @@
 	margin-right: -10px;
 	margin-top: 50px;
 }
+
+#contactus {
+	font-family: serif;
+	font-style: 25px;
+	z-index: 5;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 200px;
+	color: #A3FFFF;
+	font-size: 75px;
+}
+*/
+
+#home {
+	background: url("images/hero-images/contactbw.jpeg") 50% 0 repeat fixed; min-height: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position:relative;
+}
+
+#home article {
+	height: 458px;
+	position: absolute;
+	text-align: center;
+	top: 150px;
+	width: 100%;
+}
+
+#about {
+	background: url("images/hero-images/contact.jpg") 50% 0 no-repeat; min-height: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#about article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+
