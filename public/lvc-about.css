@@ -1,7 +1,3 @@
-.wholething {
-	background-color: #F4FFFF;
-}
-
 #heroabout {
 	background-image: url("images/hero-images/aboutbw.jpg");
 	background-size: cover;
@@ -11,6 +7,7 @@
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-top: 50px;
+	z-index: -5;
 }
 
 #aboutus {
@@ -26,3 +23,34 @@ h1 {
 	font-size: 75px;
 }
 
+p {
+	font-family: serif;
+	font-size: 20px;
+	text-align: center;
+	margin: 20px;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	font-family: serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 40px;
+	margin: 40px;
+
+}
+
+/*#middlebar {
+	width: 600px;
+	min-height: 1200px;
+	background-color: rgba(255, 255, 255, 0.60);
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 10;
+}
+*/
