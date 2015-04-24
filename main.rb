@@ -1,4 +1,5 @@
 require 'sinatra' 
+require 'Mandrill'
 
 get '/home'  do
 	erb :home
@@ -9,7 +10,6 @@ get '/contacts' do
 end
 
 post '/contacts' do
-	# inspects the message's param
 	m = Mandrill::API.new(ENV['MANDRILL_APIKEY'])
 
 	message = {
