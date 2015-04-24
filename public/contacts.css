@@ -1,0 +1,32 @@
+
+body {
+	/*margin: 0 auto;*/
+	/*background-image: url("http://www.socoolevents.com/_images/So%20Cool%20Events%20Event%20Furniture.jpg"); */
+	/*background-image: url("../images/hero-images/home.jpg");
+	height: 30em;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;*/
+
+}
+
+form{
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 40%;
+	color: yellow;
+	background-color: #13232f;
+	width: 20%;
+	padding: 10px;
+}
+
+#submit{
+	position: relative;
+	margin-left: 40%;
+}
+
+textarea{
+	margin-right: -200px;
+}
+
+
