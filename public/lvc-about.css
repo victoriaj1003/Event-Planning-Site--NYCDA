@@ -1,6 +1,9 @@
+.wholething {
+	background-color: #F4FFFF;
+}
+
 #heroabout {
-	background-image: url("images/hero-images/about.jpg");
-	/*display: inliine*/
+	background-image: url("images/hero-images/aboutbw.jpg");
 	background-size: cover;
 	background-position: fixed;
 	height: 450px;
@@ -9,3 +12,17 @@
 	margin-right: -10px;
 	margin-top: 50px;
 }
+
+#aboutus {
+	font-family: serif;
+	font-size: 25px;
+	z-index: 5;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 200px;
+	color: #A3FFFF;
+	font-size: 75px;
+}
+
