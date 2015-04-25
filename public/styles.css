@@ -91,11 +91,16 @@ nav{
 	width:200px
 }
 
+
 #primary_nav_wrap ul ul a
 {
 	line-height:120%;
 	padding:10px 15px;
 	color: white;
+}
+
+#primary_nav_wrap ul ul a:hover{
+	color: rgb(64,64,64) ;
 }
 
 /*#primary_nav_wrap ul ul ul
