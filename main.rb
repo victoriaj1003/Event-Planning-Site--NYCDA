@@ -32,3 +32,7 @@ end
 get '/thanks' do
   erb :thanks
 end
+
+get '/lvc-about' do
+	erb :thanks
+end
