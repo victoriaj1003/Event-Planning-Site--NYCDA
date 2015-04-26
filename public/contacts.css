@@ -1,32 +1,40 @@
 
-body {
-	/*margin: 0 auto;*/
-	/*background-image: url("http://www.socoolevents.com/_images/So%20Cool%20Events%20Event%20Furniture.jpg"); */
-	/*background-image: url("../images/hero-images/home.jpg");
-	height: 30em;
-	width: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;*/
+#home-image {
+  background-image: url("../images/hero-images/home.jpg");
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -10;
+  position: absolute;
+  color: rgb(170, 255, 236);
+  font-family: serif;
+  text-align: center;
+  float: left;
 
 }
 
 form{
 	position: absolute;
+	text-align: center;
 	margin-top: 10%;
 	margin-left: 40%;
 	color: yellow;
-	background-color: #13232f;
+	background-color: rgba(136, 138, 255, 0.54);
+	border-radius: 2em;
 	width: 20%;
 	padding: 10px;
 }
 
 #submit{
 	position: relative;
-	margin-left: 40%;
-}
+/*	margin-left: 40%;
+*/}
 
 textarea{
-	margin-right: -200px;
-}
+/*	margin-right: -200px;
+*/}
 
 
