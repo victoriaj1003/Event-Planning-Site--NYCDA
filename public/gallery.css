@@ -1,3 +1,12 @@
+.gallery{
+	width: 441.5px;
+	height:400px;
+	display: inline;
+}
+.gal{
+	display: block;
+}
+
 #home-image {
   background-image: url("../images/hero-images/home.jpg");
   width: 100%;
@@ -53,29 +62,5 @@
   right: 0;
   float: right;
 }
-
-
-
-
-form{
-	position: absolute;
-	text-align: center;
-	margin-top: 10%;
-	margin-left: 40%;
-	color: yellow;
-	background-color: rgba(136, 138, 255, 0.54);
-	border-radius: 2em;
-	width: 20%;
-	padding: 10px;
-}
-
-#submit{
-	position: relative;
-/*	margin-left: 40%;
-*/}
-
-textarea{
-/*	margin-right: -200px;
-*/}
 
 
