@@ -36,3 +36,7 @@ end
 get '/lvc-about' do
 	erb :thanks
 end
+
+get '/gallery' do
+	erb :gallery
+end
