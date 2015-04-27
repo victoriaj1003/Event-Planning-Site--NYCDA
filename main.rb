@@ -33,3 +33,7 @@ end
 get '/thanks' do
   erb :thanks
 end
+
+get '/abouttest' do
+	erb :abouttest
+end

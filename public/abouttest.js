@@ -1,19 +1,21 @@
 $(document).ready(function(){
-	$('section[data-type="background"]').each(function(){
-    var $bgobj = $(this); // assigning the object
+// 	$('section[data-type="background"]').each(function(){
+//     var $bgobj = $(this); // assigning the object
    	
-   	$(window).scroll(function() {
+//    	$(window).scroll(function() {
 
-   	// Put together our final background position
-     var coords = '50% '+ yPos + 'px';
+//    	// Put together our final background position
+//      var coords = '50% '+ yPos + 'px';
                 
-    // Move the background
-    $bgobj.css({ backgroundPosition: coords });
+//     // Move the background
+//     $bgobj.css({ backgroundPosition: coords });
     
-    });
+//     });
   
-  }); 
+//   }); 
 
-});
+// });
 
-var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+// var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+
+

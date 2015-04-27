@@ -34,14 +34,15 @@ section.module p {
   font-color: #00FFFF;
   border: 1px solid black;
   border-radius: 10;
-}
+}*/
 
 #levy {
-  font-size: 40px;
+  width: 60px;
+  font-size: 50px;
   font-color: #00FFFF;
   border: 1px solid black;
-  border-radius: 50;
-}*/
+  border-radius: 100px;
+}
 
 section.module p:last-child {
   margin-bottom: 0;
