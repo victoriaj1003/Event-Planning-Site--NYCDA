@@ -33,8 +33,8 @@ get '/thanks' do
   erb :thanks
 end
 
-get '/lvc-about' do
-	erb :thanks
+get '/lvc_about' do
+	erb :lvc_about
 end
 
 get '/gallery' do
