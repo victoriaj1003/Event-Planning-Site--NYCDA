@@ -10,7 +10,7 @@
 #home-image {
   background-image: url("../images/hero-images/home.jpg");
   width: 100%;
-  height: 60%;
+  height: 100%;
   top: 0;
   left: 0;
   background-size: cover;
@@ -26,41 +26,8 @@
 #home-image h1{
 	position: absolute;
 	text-align: center;
-	z-index: -10;
+	z-index: 10;
 	font-weight: bold;
-}
-
-#home-image, #home-image-bottom-left, #home-image-bottom-right{
-	text-align: center;
-}
-#home-image-bottom-left {
-  background-image: url("../images/hero-images/home.jpg");
-  width: 50%;
-  height: 60%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -10;
-  position: absolute;
-  color: rgb(141, 255, 255);
-  font-family: arial;
-  margin-top: 24%;
-  left: 0;
-  float: left;
-}
-
-#home-image-bottom-right {
-  background-image: url("http://patternity.org/wordpress/wp-content/uploads/2013/09/20130916-IMG_07473.jpg");
-  width: 50%;
-  height: 60%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -10;
-  position: absolute;
-  color: rgb(170, 255, 236);
-  font-family: arial;
-  margin-top: 24%;
-  right: 0;
-  float: right;
 }
 
 
